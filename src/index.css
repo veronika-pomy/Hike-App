@@ -1,0 +1,9 @@
+/* Pick and import Google Fonts */
+
+/* global css rules  */
+html, 
+body,
+#root,
+.app {
+    height: full;
+}

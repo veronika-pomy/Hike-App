@@ -1,9 +1,8 @@
-
+import AppContainer from "./pages/AppContainer";
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <AppContainer />
   );
 }
 
