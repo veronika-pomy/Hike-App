@@ -1,4 +1,4 @@
-# Hike A Trail
+# Hike
 
 ## Description
 
@@ -40,4 +40,4 @@ If you have any questions regarding this project, please don't hesitate to conta
 - [Coolors](https://coolors.co/)
 - [Tailwind Color Filter](https://tailwind-color-filter-generator.vercel.app/)
 
-<p align="right">(<a href="#hike-a-trail">back to top</a>)</p>
+<p align="right">(<a href="#hike">back to top</a>)</p>

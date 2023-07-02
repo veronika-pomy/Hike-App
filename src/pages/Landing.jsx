@@ -2,13 +2,14 @@ import React from 'react';
 import mountains from '../assets/imgs/mountain.png';
 
 import { AbsoluteCenter } from '@chakra-ui/react';
-import Reveal from 'react-reveal/Reveal';
+import Reveal from 'react-reveal';
+import 'animate.css';
 
 const Landing = () => {
   return (
     <div className="landing-page">
     <AbsoluteCenter axis='both'>
-        <Reveal left>
+        <Reveal effect='fadeIn' effectOut='fadeOut'>
             <img 
                 alt='Three mountains with snow on the top of the mountain in the center'
                 src={mountains}
