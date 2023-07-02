@@ -4,6 +4,7 @@
 html, 
 body,
 #root,
-.app {
-    height: full;
+.app,
+landing-page {
+    height: 100%;
 }
