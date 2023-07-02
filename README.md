@@ -31,9 +31,15 @@ If you have any questions regarding this project, please don't hesitate to conta
 
 ## Acknowledgments
 
-### Project Icons from Flaticon
+### Icons
 
-- [Auther: Freepik](https://www.flaticon.com/authors/freepik)
+- [Flaticon: Freepik](https://www.flaticon.com/authors/freepik)
+- [Font Awesome](https://fontawesome.com)
+- [Icon-Icons](https://icon-icons.com/)
+
+### Images
+
+- [Pexels](https://www.pexels.com)
 
 ### Style
 
