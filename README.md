@@ -31,6 +31,10 @@ If you have any questions regarding this project, please don't hesitate to conta
 
 ## Acknowledgments
 
+### Google Fonts
+
+- [Sora](https://fonts.google.com/specimen/Sora)
+
 ### Icons
 
 - [Flaticon: Freepik](https://www.flaticon.com/authors/freepik)
