@@ -12,8 +12,8 @@
 }
 
 .btn--primary {
-    background-color: var(--primary);
-    color: var(--primary-main);
+    background: linear-gradient(90deg, rgb(28,27,27) 0%, rgb(26,23,23) 100%);
+    color: var(--primary);
     border: 1px solid var(--primary);
 }
 
@@ -39,5 +39,6 @@
     background: var(--primary);
     color: var(--primary-main);
     transition: all 0.3s ease-out;
+    transition: 250ms;
 }
 
