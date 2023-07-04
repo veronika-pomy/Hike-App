@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../style/NavBar.css';
 
@@ -32,6 +32,13 @@ function NavBar() {
     }
   };
 
+// TODO: Need to find better logic for not showing sign up button, it's noticable when re-rendering before it goes away
+
+  // stop sign up button from re-rending on refresh 
+  useEffect(() => {
+    showButton();
+  }, []);
+
   window.addEventListener('resize', showButton);
 
   return (
@@ -42,6 +49,7 @@ function NavBar() {
             <Link
                 to='/'
                 className='navbar-logo'
+                onClick={closeMobileMenu}
             >
                 HIKE <FontAwesomeIcon icon={faMountain} className='icon-logo'/>
             </Link>
