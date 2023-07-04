@@ -41,7 +41,7 @@ If you have any questions regarding this project, please don't hesitate to conta
 - [Font Awesome](https://fontawesome.com)
 - [Icon-Icons](https://icon-icons.com/)
 
-### Images
+### Images & Video
 
 - [Pexels](https://www.pexels.com)
 
