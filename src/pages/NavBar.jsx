@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
-import { FaMountains } from "react-icons/fa6";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMountain } from '@fortawesome/free-solid-svg-icons'
 
 // button component
 
@@ -15,7 +15,7 @@ function NavBar() {
                 to='/'
                 className='navbar-logo'
             >
-                HIKE <FaMountains />
+                HIKE <FontAwesomeIcon icon={faMountain} />
             </Link>
         </div>
       </nav>
