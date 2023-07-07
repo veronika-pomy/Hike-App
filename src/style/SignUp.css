@@ -1,0 +1,40 @@
+:root {
+    --background-transparent: #000000d0;
+    --primary: #fff;
+}
+
+.sign-up-container {
+    background: var(--background-transparent);
+    padding: 8rem 16rem;
+    border-radius: 10px;
+}
+
+.sign-up-header {
+    color: var(--primary);
+    font-weight: 400;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-username,
+.sign-up-email,
+.sign-up-password,
+.sign-up-confirm-password {
+    padding: 8px 20px;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 1px solid var(--primary);
+}
+
+.sign-up-error {
+    color: var(--primary);
+    font-size: 14px;
+}

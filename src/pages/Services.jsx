@@ -6,9 +6,9 @@ import '../style/AppContainer.css';
 
 const Services = () => {
   return (
-    <h className='services'>
+    <h1 className='services'>
         We Offer
-    </h>
+    </h1>
   )
 }
 

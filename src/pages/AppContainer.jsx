@@ -14,7 +14,7 @@ import Error from './Error';
 import Preview from '../components/Preview';
 import Footer from '../components/Footer';
 
-// TODO: Add a SignIn page and a link to it
+// TODO: Add a reset Password page
 // TODO: Add Dashboard page for a user who signed in
 // TODO: Add Preview component - maybe YouTube API can be used to play a video here?
 // TODO: Add conditional to an error page

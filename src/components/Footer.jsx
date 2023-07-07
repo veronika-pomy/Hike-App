@@ -143,14 +143,14 @@ function Footer() {
                 >
                     <FontAwesomeIcon icon={faFacebook} className='icon-logo'/>
                 </Link>
-                <Link 
+                {/* <Link 
                     className="social-icon-link linkedin" 
                     to='/'
                     target='_blank' 
                     aria-label='LinkedIn'
                 >
                     <FontAwesomeIcon icon={faLinkedin} className='icon-logo'/>
-                </Link>
+                </Link> */}
             </div>
         </div>
       </section>

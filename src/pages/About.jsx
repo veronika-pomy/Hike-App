@@ -5,9 +5,9 @@ import '../style/AppContainer.css';
 
 const About = () => {
   return (
-    <h className='about'>
+    <h1 className='about'>
         Our Story
-    </h>
+    </h1>
   )
 }
 

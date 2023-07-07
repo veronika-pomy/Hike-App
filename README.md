@@ -31,6 +31,13 @@ If you have any questions regarding this project, please don't hesitate to conta
 
 ## Acknowledgments
 
+### Technologies & Frameworks
+
+- [Node](https://nodejs.org/en)
+- [React](https://react.dev/)
+
+### Third-Party APIs
+
 ### Google Fonts
 
 - [Sora](https://fonts.google.com/specimen/Sora)
@@ -41,9 +48,13 @@ If you have any questions regarding this project, please don't hesitate to conta
 - [Font Awesome](https://fontawesome.com)
 - [Icon-Icons](https://icon-icons.com/)
 
-### Images & Video
+### Images & Videos
 
 - [Pexels](https://www.pexels.com)
+
+### Libraries
+
+- [React Hook Form](https://www.npmjs.com/package/react-hook-form)
 
 ### Style
 
