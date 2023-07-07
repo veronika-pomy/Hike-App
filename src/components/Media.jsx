@@ -13,10 +13,20 @@ const Media = () => {
         <h1>ADVENTURE CALLS</h1>
         <p>Embrace the Journey</p>
         <div className="media-btns">
-            <Button className='btns' btnStyle='btn--outline' btnSize='btn--large'>
+            <Button 
+              className='btns' 
+              btnStyle='btn--outline' 
+              btnSize='btn--large'
+              link='/sign-up'
+            >
                 GET STARTED
             </Button>
-            <Button className='btns' btnStyle='btn--primary' btnSize='btn--large'>
+            <Button 
+              className='btns' 
+              btnStyle='btn--primary' 
+              btnSize='btn--large'
+              link='/preview'
+            >
                 WATCH PREVIEW <FontAwesomeIcon icon={faPlay} className='media-icon'/>
             </Button>
         </div>

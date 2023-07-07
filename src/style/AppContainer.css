@@ -8,7 +8,12 @@
 .home,
 .about,
 .services,
-.sign-up {
+.sign-up,
+.sign-in,
+.terms,
+.testimonials,
+.preview,
+.error {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -44,4 +49,55 @@
     color: #fff;
     font-size: 100px;
     font-weight: bold;
+}
+
+.sign-in {
+    background-image: url(../assets/imgs/image-signin.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.terms {
+    background-image: url(../assets/imgs/image-terms.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.testimonials {
+    background-image: url(../assets/imgs/image-testimonials.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.preview {
+    background-image: url(../assets/imgs/image-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.error {
+    background-image: url(../assets/imgs/image-error.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+    color: #242424;
 }

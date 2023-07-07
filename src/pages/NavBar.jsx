@@ -9,6 +9,9 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 import Button from '../components/Button';
 
+
+// TODO: Need to find better logic for not showing sign up button, it's noticable when re-rendering before it goes away
+
 function NavBar() {
 
   // state to switch between open and closed menu icon
@@ -31,8 +34,6 @@ function NavBar() {
       setButton(true);
     }
   };
-
-// TODO: Need to find better logic for not showing sign up button, it's noticable when re-rendering before it goes away
 
   // stop sign up button from re-rending on refresh 
   useEffect(() => {
@@ -74,6 +75,11 @@ function NavBar() {
               <li className='nav-item'>
                 <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
                   Services
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link to='/sign-in' className='nav-links' onClick={closeMobileMenu}>
+                  Sign In
                 </Link>
               </li>
               <li className='nav-item'>
