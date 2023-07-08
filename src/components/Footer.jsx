@@ -98,9 +98,9 @@ function Footer() {
                     <FontAwesomeIcon icon={faMountain} className='icon-logo'/>
                 </Link>
             </div>
-            <small className="copyright">
+            {/* <small className="copyright">
                 HIKE © 2023
-            </small>
+            </small> */}
             <div className="social-icons">
                 <Link 
                     className="social-icon-link instagram" 
@@ -143,14 +143,14 @@ function Footer() {
                 >
                     <FontAwesomeIcon icon={faFacebook} className='icon-logo'/>
                 </Link>
-                {/* <Link 
+                <Link 
                     className="social-icon-link linkedin" 
                     to='/'
                     target='_blank' 
                     aria-label='LinkedIn'
                 >
                     <FontAwesomeIcon icon={faLinkedin} className='icon-logo'/>
-                </Link> */}
+                </Link>
             </div>
         </div>
       </section>

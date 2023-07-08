@@ -1,5 +1,4 @@
 import React from 'react';
-
 import '../style/AppContainer.css';
 import '../style/SignUp.css';
 
@@ -104,12 +103,6 @@ const SignUp = () => {
               className="sign-up-error"
             >
               {errors.password?.type === "required" && "This field is required."}
-            </p>
-          )}
-          {(
-            <p
-              className="sign-up-error"
-            >
               {errors.password?.type === "minLength" && "Password should be at least 8 characters."}
               {errors.password?.type === "pattern" && "Please include one lower case letter, one uppercase, one number, and one symbol."}
             </p>
@@ -118,7 +111,7 @@ const SignUp = () => {
             type="password"
             placeholder="Confirm Password"
             name="confirmPwd"
-            className="sign-up-confirm-password"
+            className="sign-up-confirmpwd"
             {...register("confirmPwd",
               {
                 required: true,
