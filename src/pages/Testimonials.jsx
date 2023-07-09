@@ -6,6 +6,6 @@ const Testimonials = () => {
         Testimonials
     </div>
   )
-}
+};
 
 export default Testimonials;
