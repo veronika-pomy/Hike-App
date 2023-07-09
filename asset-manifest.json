@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Hike-App/static/css/main.c32c4364.css",
+    "main.js": "/Hike-App/static/js/main.63c57df8.js",
+    "static/media/image-about.jpg": "/Hike-App/static/media/image-about.ee912a571070d812bae8.jpg",
+    "static/media/image-signin.jpg": "/Hike-App/static/media/image-signin.17867d9c47dc86e14283.jpg",
+    "static/media/image-testimonials.jpg": "/Hike-App/static/media/image-testimonials.98efb638d24d8b66f12b.jpg",
+    "static/media/image-terms.jpg": "/Hike-App/static/media/image-terms.d7fe7a9be3be33a0521c.jpg",
+    "static/media/image-preview.jpg": "/Hike-App/static/media/image-preview.0765ee322dd76a3ff9a9.jpg",
+    "static/media/image-error.jpg": "/Hike-App/static/media/image-error.376c55079095764cd86f.jpg",
+    "static/media/image-signup.jpg": "/Hike-App/static/media/image-signup.f49c55317da54f041085.jpg",
+    "static/media/image-services.jpg": "/Hike-App/static/media/image-services.06d2721e1aceea03941c.jpg",
+    "index.html": "/Hike-App/index.html",
+    "main.c32c4364.css.map": "/Hike-App/static/css/main.c32c4364.css.map",
+    "main.63c57df8.js.map": "/Hike-App/static/js/main.63c57df8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c32c4364.css",
+    "static/js/main.63c57df8.js"
+  ]
+}
