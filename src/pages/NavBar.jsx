@@ -48,7 +48,7 @@ function NavBar() {
         <div className="navbar-container">
             {/* use link to replace a tag */}
             <Link
-                to='/'
+                to='/Hike-App'
                 className='navbar-logo'
                 onClick={closeMobileMenu}
             >

@@ -64,30 +64,30 @@ function Footer() {
             </div>
             <div className='footer-link-item'>
                 <h2 className='footer-link-header'>Contact Us</h2>   
-                <Link to='/'>Contact</Link> 
-                <Link to='/'>Support</Link> 
-                <Link to='/'>Destinations</Link>
-                <Link to='/'>Timezones</Link>
-                <Link to='/'>Maps</Link>
+                <Link to='/Hike-App'>Contact</Link> 
+                <Link to='/Hike-App'>Support</Link> 
+                <Link to='/Hike-App'>Destinations</Link>
+                <Link to='/Hike-App'>Timezones</Link>
+                <Link to='/Hike-App'>Maps</Link>
             </div>
         </div>
         <div className="footer-links-wrapper">
             <div className='footer-link-item'>
                 <h2 className='footer-link-header'>Content</h2>   
-                <Link to='/'>Featured Brands</Link> 
-                <Link to='/'>Submit Your Video</Link> 
-                <Link to='/'>Brand Ambassadors</Link> 
-                <Link to='/'>Sponsorships</Link>
-                <Link to='/'>Explore</Link> 
+                <Link to='/Hike-App'>Featured Brands</Link> 
+                <Link to='/Hike-App'>Submit Your Video</Link> 
+                <Link to='/Hike-App'>Brand Ambassadors</Link> 
+                <Link to='/Hike-App'>Sponsorships</Link>
+                <Link to='/Hike-App'>Explore</Link> 
             </div>
             <div className='footer-link-item'>
                 <h2 className='footer-link-header'>Social Media</h2>   
-                <Link to='/'>Instagram</Link> 
-                <Link to='/'>Twitter</Link> 
-                <Link to='/'>TikTok</Link>
-                <Link to='/'>YouTube</Link> 
-                <Link to='/'>Facebook</Link> 
-                <Link to='/'>LinkedIn</Link> 
+                <Link to='/Hike-App'>Instagram</Link> 
+                <Link to='/Hike-App'>Twitter</Link> 
+                <Link to='/Hike-App'>TikTok</Link>
+                <Link to='/Hike-App'>YouTube</Link> 
+                <Link to='/Hike-App'>Facebook</Link> 
+                <Link to='/Hike-App'>LinkedIn</Link> 
             </div>
         </div>
       </div>
@@ -105,7 +105,7 @@ function Footer() {
                 <Link 
                     className="social-icon-link instagram" 
                     // opens a home page instead of social media for demo purposes only
-                    to='/'
+                    to='/Hike-App'
                     target='_blank' 
                     aria-label='Instagram'
                 >
@@ -113,7 +113,7 @@ function Footer() {
                 </Link>
                 <Link 
                     className="social-icon-link twitter" 
-                    to='/'
+                    to='/Hike-App'
                     target='_blank' 
                     aria-label='Twitter'
                 >
@@ -121,7 +121,7 @@ function Footer() {
                 </Link>
                 <Link 
                     className="social-icon-link tiktok" 
-                    to='/'
+                    to='/Hike-App'
                     target='_blank' 
                     aria-label='TikTok'
                 >
@@ -129,7 +129,7 @@ function Footer() {
                 </Link>
                 <Link 
                     className="social-icon-link youtube" 
-                    to='/'
+                    to='/Hike-App'
                     target='_blank' 
                     aria-label='YouTube'
                 >
@@ -137,7 +137,7 @@ function Footer() {
                 </Link>
                 <Link 
                     className="social-icon-link facebook" 
-                    to='/'
+                    to='/Hike-App'
                     target='_blank' 
                     aria-label='Facebook'
                 >
@@ -145,7 +145,7 @@ function Footer() {
                 </Link>
                 <Link 
                     className="social-icon-link linkedin" 
-                    to='/'
+                    to='/Hike-App'
                     target='_blank' 
                     aria-label='LinkedIn'
                 >

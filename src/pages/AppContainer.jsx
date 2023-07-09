@@ -18,6 +18,7 @@ import Footer from '../components/Footer';
 // TODO: Add Dashboard page for a user who signed in
 // TODO: Add Preview component - maybe YouTube API can be used to play a video here?
 // TODO: Add conditional to an error page
+// TODO: Add reset password componenet
 
 const AppContainer = () => {
   return (
@@ -25,7 +26,7 @@ const AppContainer = () => {
         <Router>
             <NavBar />
             <Routes>
-                <Route path='/' exact element={<Home />} />
+                <Route path='/Hike-App' exact element={<Home />} />
                 <Route path='/about' exact element={<About />} />
                 <Route path='/services' exact element={<Services />} />
                 <Route path='/sign-up' exact element={<SignUp />} />

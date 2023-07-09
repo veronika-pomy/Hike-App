@@ -12,7 +12,7 @@ const Media = () => {
   return (
     <div className='media-container'>
         <video 
-          src={videoHome} 
+          src={`${videoHome}`} 
           autoPlay 
           loop 
           muted 
