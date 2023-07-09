@@ -6,10 +6,17 @@ import '../style/Media.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
+import videoHome from '../assets/videos/video-1.mp4';
+
 const Media = () => {
   return (
     <div className='media-container'>
-        <video src='../assets/videos/video-1.mp4'autoPlay loop muted />
+        <video 
+          src={videoHome} 
+          autoPlay 
+          loop 
+          muted 
+        />
         <h1>ADVENTURE CALLS</h1>
         <p>Embrace the Journey</p>
         <div className="media-btns">

@@ -2,6 +2,12 @@ import React from 'react';
 import CardDestination from '../components/CardDestination';
 import '../style/Cards.css';
 
+import card1 from '../assets/imgs/image-canyon.jpg';
+import card2 from '../assets/imgs/image-lake.jpg';
+import card3 from '../assets/imgs/image-hills.jpg';
+import card4 from '../assets/imgs/image-sea.jpg';
+import card5 from '../assets/imgs/image-snow.jpg';
+
 function Cards() {
   return (
     <div className='cards'>
@@ -10,14 +16,14 @@ function Cards() {
             <div className="cards-wrapper"></div>
             <ul className="cards-items">
                 <CardDestination 
-                    src='../assets/imgs/image-canyon.jpg'
+                    src={card1}
                     text="Discover the untamed beautify of Arizona's canyons"
                     label='Adventure'
                     path='/services'
                     alt="A breathtaking sunset illuminating a canyon from above"
                 />
                 <CardDestination 
-                    src='../assets/imgs/image-lake.jpg'
+                    src={card2}
                     text="Experience tranquility by the crystal-clear lakes of Montana"
                     label='Relax'
                     path='/services'
@@ -26,21 +32,21 @@ function Cards() {
             </ul>
             <ul className="cards-items">
                 <CardDestination 
-                    src='../assets/imgs/image-hills.jpg'
+                    src={card3}
                     text="Uncover hidden gems of the unbridled California forests"
                     label='Relax'
                     path='/services'
                     alt="A rocky mountain gracefully overlooking the vast expanse of the ocean"
                 />
                 <CardDestination 
-                    src='../assets/imgs/image-sea.jpg'
+                    src={card4}
                     text="Embark on a journey amidst rugged landscapes of Alaska"
                     label='Adventure'
                     path='/services'
                     alt="A calm ocean beneath mountains adorned with drifting clouds"
                 />
                  <CardDestination 
-                    src='../assets/imgs/image-snow.jpg'
+                    src={card5}
                     text="Scale the snowy summits of Colorado's majestic mountains"
                     label='Adventure'
                     path='/services'
