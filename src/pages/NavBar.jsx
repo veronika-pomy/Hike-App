@@ -68,22 +68,22 @@ function NavBar() {
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='/Hike-App/about' className='nav-links' onClick={closeMobileMenu}>
                   About
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='/Hike-App/services' className='nav-links' onClick={closeMobileMenu}>
                   Services
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link to='/sign-in' className='nav-links' onClick={closeMobileMenu}>
+                <Link to='/Hike-App/sign-in' className='nav-links' onClick={closeMobileMenu}>
                   Sign In
                 </Link>
               </li>
               <li className='nav-item'>
-                <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                <Link to='/Hike-App/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                   Sign Up
                 </Link>
               </li>
@@ -91,7 +91,7 @@ function NavBar() {
             {button && 
               <Button
                 btnStyle='btn--outline' 
-                link='/sign-up'
+                link='/Hike-App/sign-up'
               >
                 SIGN UP
               </Button>}

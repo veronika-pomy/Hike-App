@@ -56,11 +56,11 @@ function Footer() {
         <div className="footer-links-wrapper">
             <div className='footer-link-item'>
                 <h2 className='footer-link-header'>About Us</h2>   
-                <Link to='/about'>How We Work</Link>
-                <Link to='/testimonials'>Testimonials</Link> 
-                <Link to='/services'>Our Services</Link> 
-                <Link to='/terms'>Terms of Service</Link>
-                <Link to='/about'>Giving Back</Link>  
+                <Link to='/Hike-App/about'>How We Work</Link>
+                <Link to='/Hike-App/testimonials'>Testimonials</Link> 
+                <Link to='/Hike-App/services'>Our Services</Link> 
+                <Link to='/Hike-App/terms'>Terms of Service</Link>
+                <Link to='/Hike-App/about'>Giving Back</Link>  
             </div>
             <div className='footer-link-item'>
                 <h2 className='footer-link-header'>Contact Us</h2>   
@@ -94,7 +94,7 @@ function Footer() {
       <section className="social-media">
         <div className="social-media-wrapper">
             <div className="social-media-logo">
-                <Link className="social-logo" to="/">
+                <Link className="social-logo" to="/Hike-App">
                     <FontAwesomeIcon icon={faMountain} className='icon-logo'/>
                 </Link>
             </div>

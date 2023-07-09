@@ -27,14 +27,14 @@ const AppContainer = () => {
             <NavBar />
             <Routes>
                 <Route path='/Hike-App' exact element={<Home />} />
-                <Route path='/about' exact element={<About />} />
-                <Route path='/services' exact element={<Services />} />
-                <Route path='/sign-up' exact element={<SignUp />} />
-                <Route path='/sign-in' exact element={<SignIn />} />
-                <Route path='/preview' exact element={<Preview />} />
-                <Route path='/testimonials' exact element={<Testimonials />} />
-                <Route path='terms' exact element={<Terms />} />
-                <Route path='/error' exact element={<Error />} />
+                <Route path='/Hike-App/about' exact element={<About />} />
+                <Route path='/Hike-App/services' exact element={<Services />} />
+                <Route path='/Hike-App/sign-up' exact element={<SignUp />} />
+                <Route path='/Hike-App/sign-in' exact element={<SignIn />} />
+                <Route path='/Hike-App/preview' exact element={<Preview />} />
+                <Route path='/Hike-App/testimonials' exact element={<Testimonials />} />
+                <Route path='/Hike-App/terms' exact element={<Terms />} />
+                <Route path='/Hike-App/error' exact element={<Error />} />
             </Routes>
             <Footer />
         </Router>
