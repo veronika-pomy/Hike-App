@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hike-App/static/css/main.c32c4364.css",
-    "main.js": "/Hike-App/static/js/main.680a3b05.js",
+    "main.js": "/Hike-App/static/js/main.83acfe34.js",
     "static/media/image-about.jpg": "/Hike-App/static/media/image-about.ee912a571070d812bae8.jpg",
     "static/media/video-1.mp4": "/Hike-App/static/media/video-1.2876cfa1cc6e7a4d9dd2.mp4",
     "static/media/image-signin.jpg": "/Hike-App/static/media/image-signin.17867d9c47dc86e14283.jpg",
@@ -18,10 +18,10 @@
     "static/media/image-canyon.jpg": "/Hike-App/static/media/image-canyon.b8cb794adb180cfbc3bb.jpg",
     "index.html": "/Hike-App/index.html",
     "main.c32c4364.css.map": "/Hike-App/static/css/main.c32c4364.css.map",
-    "main.680a3b05.js.map": "/Hike-App/static/js/main.680a3b05.js.map"
+    "main.83acfe34.js.map": "/Hike-App/static/js/main.83acfe34.js.map"
   },
   "entrypoints": [
     "static/css/main.c32c4364.css",
-    "static/js/main.680a3b05.js"
+    "static/js/main.83acfe34.js"
   ]
 }
