@@ -11,7 +11,7 @@ import SignIn from './SignIn';
 import Testimonials from './Testimonials';
 import Terms from './Terms';
 import Error from './Error';
-import Preview from '../components/Preview';
+import Preview from './Preview';
 import Footer from '../components/Footer';
 
 // TODO: Add a reset Password page

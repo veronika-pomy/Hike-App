@@ -4,6 +4,7 @@ import '../style/SignIn.css';
 
 // TODO: Add authentication
 // TODO: When user is signed up, redirect to the Dashboard page
+// TODO: setset password functionality + email js
 
 import { useRef } from 'react';
 import { useForm } from "react-hook-form";
