@@ -38,6 +38,8 @@ If you have any questions regarding this project, please don't hesitate to conta
 
 ### Third-Party APIs
 
+- [YouTube Data API](https://developers.google.com/youtube/v3)
+
 ### Google Fonts
 
 - [Sora](https://fonts.google.com/specimen/Sora)
